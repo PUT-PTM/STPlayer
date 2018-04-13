@@ -32,10 +32,10 @@ endif
 all: WAVplayer-PROJECT.elf
 
 # Tool invocations
-WAVplayer-PROJECT.elf: $(OBJS) $(USER_OBJS) D:\ptm\lab2s3\LinkerScript.ld
+WAVplayer-PROJECT.elf: $(OBJS) $(USER_OBJS) F:\git\WAVplayer-PROJECT\LinkerScript.ld
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU GCC Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"D:\ptm\lab2s3\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "WAVplayer-PROJECT.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"F:\git\WAVplayer-PROJECT\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "WAVplayer-PROJECT.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

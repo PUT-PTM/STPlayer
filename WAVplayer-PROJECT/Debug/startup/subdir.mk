@@ -18,7 +18,7 @@ startup/%.o: ../startup/%.S
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo $(PWD)
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F4DISCOVERY -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"D:/ptm/lab2s3/Utilities" -I"D:/ptm/lab2s3/StdPeriph_Driver/inc" -I"D:/ptm/lab2s3/inc" -I"D:/ptm/lab2s3/CMSIS/device" -I"D:/ptm/lab2s3/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F4DISCOVERY -DDEBUG -DSTM32F40XX -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -I"F:/git/WAVplayer-PROJECT/Utilities" -I"F:/git/WAVplayer-PROJECT/StdPeriph_Driver/inc" -I"F:/git/WAVplayer-PROJECT/inc" -I"F:/git/WAVplayer-PROJECT/CMSIS/device" -I"F:/git/WAVplayer-PROJECT/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
