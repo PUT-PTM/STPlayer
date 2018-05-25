@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\jacin\Desktop\STPlayer\cmsis_boot -I..\..\..\..\..\Users\jacin\Desktop\STPlayer\cmsis -I..\..\..\..\..\Users\jacin\Desktop\STPlayer -I..\..\..\..\..\Users\jacin -I..\..\..\..\..\Users\jacin\Desktop\STPlayer\FatFS -I..\..\..\..\..\Users\jacin\Desktop -I..\..\..\..\..\Users\jacin\Desktop\STPlayer\cmsis_lib\include -I..\..\..\..\..\Users\jacin\Desktop\STPlayer\cmsis_lib">
+      <target file="stm32f4xx_exti.o" lastModified="163987df619">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="163967fc510"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="163987df27b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="163967fcce0"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="163987df70f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="163967fd4b0"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="163987deb9d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="163967fcce0"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="163987debe5">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="163967fe450"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="163987df7bc">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="163967fd4b0"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="163987df08b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="163967fc510"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="163987df2d4">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="163967fb570"/>
+      </target>
+      <target file="misc.o" lastModified="163987df672">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="163967fbd40"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="163987df3ae">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="163967fc510"/>
+      </target>
+      <target file="stm32f4xx_rng.o" lastModified="163987df5be">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="163967fcce0"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="163987df4f1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="163967fcce0"/>
+      </target>
+      <target file="List.o" lastModified="163987df10f">
+         <source file="..\..\..\List.c" lastModified="163967fa5d0"/>
+      </target>
+      <target file="codec.o" lastModified="163987deff2">
+         <source file="..\..\..\codec.c" lastModified="163967f9e00"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="163987dee68">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="163967fd4b0"/>
+      </target>
+      <target file="delay.o" lastModified="1639882665d">
+         <source file="..\..\..\delay.c" lastModified="16398825432"/>
+      </target>
+      <target file="syscalls.o" lastModified="163987df33b">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="163967fb570"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="163987df565">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="163967fcce0"/>
+      </target>
+      <target file="spi_sd.o" lastModified="163987df206">
+         <source file="..\..\..\spi_sd.c" lastModified="163967fa5d0"/>
+      </target>
+      <target file="ff.o" lastModified="163987df47f">
+         <source file="..\..\..\FatFS\ff.c" lastModified="163967fb570"/>
+      </target>
+      <target file="main.o" lastModified="163996dab31">
+         <source file="..\..\..\main.c" lastModified="163996da6af"/>
+      </target>
+   </processor>
+</history>

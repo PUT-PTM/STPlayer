@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=STPlayer.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STPlayer -TC:\CooCox\CoIDE\configuration\ProgramData\STPlayer/link.ld -g">
+      <target file="STPlayer.elf" lastModified="163996dad6a">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="163987deb9d"/>
+         <source file="..\obj\delay.o" lastModified="1639882665d"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="163987debe5"/>
+         <source file="..\obj\main.o" lastModified="163996dab31"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="163987dee68"/>
+         <source file="..\obj\codec.o" lastModified="163987deff2"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="163987df08b"/>
+         <source file="..\obj\List.o" lastModified="163987df10f"/>
+         <source file="..\obj\spi_sd.o" lastModified="163987df206"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="163987df27b"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="163987df2d4"/>
+         <source file="..\obj\syscalls.o" lastModified="163987df33b"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="163987df3ae"/>
+         <source file="..\obj\ff.o" lastModified="163987df47f"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="163987df4f1"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="163987df565"/>
+         <source file="..\obj\stm32f4xx_rng.o" lastModified="163987df5be"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="163987df619"/>
+         <source file="..\obj\misc.o" lastModified="163987df672"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="163987df70f"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="163987df7bc"/>
+      </target>
+   </processor>
+</history>
